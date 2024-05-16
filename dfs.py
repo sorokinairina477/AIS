@@ -1,10 +1,10 @@
 
-def dfs(node, depth=0):
+def dfs(node):
     if node not in visited:
-        print(node, depth)
+        print(node)
         visited.add(node)
         for neighbor in graph[node]:
-            dfs(neighbor, depth + 1)
+            dfs(neighbor)
 
 graph = {
     'A': ['B', 'C'],
