@@ -15,7 +15,7 @@ graph = {
     'F': []
 }
 
-visited = set() 
+visited = set() комментарии
 #Еще Новый
 
 
